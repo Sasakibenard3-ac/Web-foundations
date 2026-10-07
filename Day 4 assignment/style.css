@@ -1,0 +1,96 @@
+```css
+:root {
+    --background-color: #ffffff;
+    --text-color: #222222;
+    --container-color: #f4f4f4;
+    --border-color: #cccccc;
+    --button-color: #222222;
+    --button-text-color: #ffffff;
+}
+
+body.dark {
+    --background-color: #222222;
+    --text-color: #ffffff;
+    --container-color: #333333;
+    --border-color: #666666;
+    --button-color: #ffffff;
+    --button-text-color: #222222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: var(--container-color);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#theme-toggle {
+    margin-bottom: 20px;
+}
+
+#char-count {
+    margin-bottom: 5px;
+}
+
+#word-count {
+    margin-top: 5px;
+}
+
+.warning {
+    color: orange;
+}
+
+.over {
+    color: red;
+    font-weight: bold;
+}
+```
