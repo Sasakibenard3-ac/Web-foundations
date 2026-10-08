@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in the course was understanding how a system can handle a large amount of traffic while still keeping data correct. At first, I mainly thought about making a website work for one user. I found it more difficult to understand what happens when thousands of users perform the same action at the same time. The TicketHub example helped me understand concepts such as traffic estimation, database transactions, locking, caching, queues and horizontal scaling. I overcame this by breaking the problem into smaller parts and calculating the expected traffic before deciding on the architecture.
+
+Based on the feedback I received during the course, I would improve my capstone by making the system design more detailed before starting development. I would pay more attention to database relationships, API design, validation, error handling and how the application behaves when many users access it simultaneously. I would also improve my documentation so that another developer could understand the project more easily.
+
+Next, I want to learn more about backend development, especially PHP and Laravel, REST APIs, databases, authentication and deployment. I also want to become more confident with Git and GitHub and learn how real production systems use cloud infrastructure, caching, queues and monitoring. These skills will help me move from building small projects to designing reliable applications that can support real users.
